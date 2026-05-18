@@ -1,0 +1,55 @@
+name: Tiny GitHub Fix Sprint request
+description: Request a small public GitHub docs/test/example/bug-fix sprint
+title: "Sprint request: "
+labels: ["sprint-request"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Public repository URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: issue
+    attributes:
+      label: Issue URL or context
+      placeholder: https://github.com/owner/repo/issues/123
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: What happens now?
+    validations:
+      required: true
+  - type: input
+    id: verification
+    attributes:
+      label: Test command / verification path
+      placeholder: npm test / pytest / cargo test / manual docs check / unknown
+  - type: dropdown
+    id: delivery
+    attributes:
+      label: Delivery accepted
+      options:
+        - External PR accepted
+        - Patch file accepted
+        - Either PR or patch file is OK
+    validations:
+      required: true
+  - type: checkboxes
+    id: exclusions
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This task does not require private credentials, production access, security exploit work, auth/payment/wallet logic, scraping abuse, private APIs, hardware/mobile-only testing, or vague refactors.
+          required: true
