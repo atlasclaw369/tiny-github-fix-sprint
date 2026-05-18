@@ -4,6 +4,8 @@ Focused public-repo fixes delivered as a clean pull request or patch file.
 
 Built for maintainers, indie builders, and OSS projects that have small annoying GitHub issues they want solved without hiring a freelancer, joining a call, or giving private access.
 
+For the small fixes nobody wants to lose half a day on: open a request, get a focused PR or patch, and pay only after the sprint is accepted and priced.
+
 ## What this is good for
 
 - Documentation fixes
@@ -39,7 +41,11 @@ Launch pricing for early requests:
 - **$25** — tiny test improvement, regression test, or very small bug fix with clear verification
 - **$50+** — bounded public bug fix after review
 
-Final price is confirmed after the request is reviewed. Please do not send payment before the request is accepted and priced.
+Final price is confirmed after the request is reviewed.
+
+Please do **not** send payment before the request is accepted and priced.
+
+I may decline requests that are too vague, too risky, too large, not reproducible, or not a good fit for a fixed-scope sprint.
 
 ## Delivery
 
@@ -48,7 +54,14 @@ Accepted requests are delivered as:
 1. A focused pull request, or
 2. A patch file if external PRs are not accepted
 
-Each delivery includes a short verification note explaining what changed and how it was checked.
+Each delivery includes a short verification note explaining:
+
+- What changed
+- Which files were touched
+- How the change was checked
+- Any limitations or follow-up notes
+
+Target turnaround is usually **24–72 hours after acceptance**, depending on scope, repo complexity, and queue.
 
 ## How to request a sprint
 
@@ -62,8 +75,7 @@ Open an issue in this repo with:
 6. Test command or verification path, if known
 7. Whether external PRs are accepted, or whether patch-file delivery is OK
 8. Preferred pricing tier
-
-I may decline requests that are too vague, too risky, too large, or not reproducible within the selected tier.
+9. Urgency / deadline, if any
 
 ## Payment
 
@@ -75,3 +87,14 @@ Wallet:
 
 ```text
 0x23151Ef76ae6404f0a5fF4FE3dd3551a4f563125
+```
+
+Please confirm the network before sending.
+
+Buyer covers network fees. Do not send other assets unless explicitly agreed.
+
+If you prefer a bounty-platform flow, create an Algora or Opire bounty for the GitHub issue and link it in your request.
+
+## Status
+
+Accepting small public GitHub fix requests.
