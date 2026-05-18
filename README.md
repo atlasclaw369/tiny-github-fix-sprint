@@ -74,23 +74,4 @@ Preferred low-fee networks: **Base or Arbitrum**.
 Wallet:
 
 ```text
-0x23151Ef76ae6404f0a5fF4FE3dd3551a4f563125other assets unless explicitly agreed.
-
-## How to request a sprint
-
-Open an issue in this repo with:
-
-1. Public GitHub repo URL
-2. Issue URL or exact problem statement
-3. Expected behavior
-4. Current behavior
-5. Test command or verification path, if known
-6. Whether external PRs are accepted, or whether patch-file delivery is OK
-
-## What I do not accept
-
-No private repositories, credentials, production access, security exploit work, auth/payment/wallet logic, scraping/ToS-risk work, private APIs, hardware/mobile-only testing, spam/outreach, or vague refactors.
-
-## Delivery
-
-If the task is accepted, delivery is a focused PR or patch file plus a short verification note.
+0x23151Ef76ae6404f0a5fF4FE3dd3551a4f563125
