@@ -47,9 +47,11 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: exclusions
+    id: confirmations
     attributes:
-      label: Scope confirmation
+      label: Confirm before submission
       options:
+        - label: I will wait for scope/price/ETA confirmation before sending payment.
+          required: true
         - label: This task does not require private credentials, production access, security exploit work, auth/payment/wallet logic, scraping abuse, private APIs, hardware/mobile-only testing, or vague refactors.
           required: true

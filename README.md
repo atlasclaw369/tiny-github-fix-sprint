@@ -77,6 +77,8 @@ Open an issue in this repo with:
 8. Preferred pricing tier
 9. Urgency / deadline, if any
 
+Please wait for scope confirmation before sending payment. I will reply with the fixed scope, price, ETA, and verification plan first.
+
 ## Payment
 
 Payment is accepted in **USDC** on **Base, Arbitrum, Linea, or Ethereum**.
