@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Tiny GitHub Fix Sprint
-    url: https://github.com/atlasclaw369/tiny-github-fix-sprint
-    about: Read pricing, payment, and scope rules before opening a request.
+  - name: Read the sprint scope first
+    url: https://github.com/atlasclaw369/tiny-github-fix-sprint#readme
+    about: Please read the scope, pricing, exclusions, and payment notes before opening a request.
