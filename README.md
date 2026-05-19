@@ -103,6 +103,10 @@ If you prefer a bounty-platform flow, create an Algora or Opire bounty for the G
 
 If you want to share this offer in a marketplace or public channel where fixed-price technical help is welcome, use [MARKETPLACE-LISTING.md](MARKETPLACE-LISTING.md).
 
+## Response templates
+
+For accepted, needs-narrowing, decline, delivery, and payment wording, see [RESPONSE-TEMPLATES.md](RESPONSE-TEMPLATES.md).
+
 ## Status
 
 Accepting small public GitHub fix requests.
