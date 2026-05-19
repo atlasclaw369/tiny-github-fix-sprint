@@ -26,6 +26,8 @@ Good requests are specific, public, and verifiable:
 - “Fix this example so it passes the documented command.”
 - “Open a PR correcting broken links and setup instructions.”
 
+See [example sprint requests](EXAMPLES.md) for more accepted/rejected examples.
+
 Bad requests:
 
 - “Fix my app.”
@@ -96,6 +98,10 @@ Please confirm the network before sending.
 Buyer covers network fees. Do not send other assets unless explicitly agreed.
 
 If you prefer a bounty-platform flow, create an Algora or Opire bounty for the GitHub issue and link it in your request.
+
+## Marketplace copy
+
+If you want to share this offer in a marketplace or public channel where fixed-price technical help is welcome, use [MARKETPLACE-LISTING.md](MARKETPLACE-LISTING.md).
 
 ## Status
 
