@@ -31,6 +31,14 @@ body:
       description: What happens now?
     validations:
       required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What exact result would make this sprint complete?
+      placeholder: e.g. README command updated and verified; one regression test added; example runs with documented command
+    validations:
+      required: true
   - type: input
     id: verification
     attributes:
@@ -46,12 +54,31 @@ body:
         - Either PR or patch file is OK
     validations:
       required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Preferred pricing tier
+      description: Final scope, price, and ETA are confirmed before payment.
+      options:
+        - $10 Starter — docs/link/example cleanup
+        - $25 Standard — tiny test or small bug fix
+        - $50+ Custom — only after review
+        - Not sure / quote after review
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Urgency / deadline
+      placeholder: No rush / 24-48h / specific date
   - type: checkboxes
     id: confirmations
     attributes:
       label: Confirm before submission
       options:
         - label: I will wait for scope/price/ETA confirmation before sending payment.
+          required: true
+        - label: I understand payment is accepted in USDC on Base, Arbitrum, Linea, or Ethereum only after scope confirmation.
           required: true
         - label: This task does not require private credentials, production access, security exploit work, auth/payment/wallet logic, scraping abuse, private APIs, hardware/mobile-only testing, or vague refactors.
           required: true
